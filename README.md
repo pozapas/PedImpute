@@ -4,16 +4,22 @@
 This project investigates the quality of pedestrian volume data for safety and urban planning purposes. Using statistical, machine learning, and deep learning methods, we detect anomalies in pedestrian activity data and impute missing values. We analyze daily time series data of pedestrian activity at traffic signals in the state of Utah from 2018 to 2022, incorporating Epidemiological-Environmental (EpiEnv) variables including average temperature, precipitation, air quality index, and COVID-19 data.
 Our findings suggest the superiority of the DBSCAN method for anomaly detection and the effectiveness of Random Forest, LSTM, and GRU techniques in imputing various categories of missing value patterns. The results show the significant effect of EpiEnv variables on the process of anomaly detection and imputation across all traffic signals.
 
+## Methodology
+![Methodology](https://github.com/pozapas/PedImpute/blob/master/Images/Methodology.svg)
+
 ## Installation
-This project requires Python and the following Python packages installed:
+This project and PedAnomaly.ipynb notebook requires Python and the following Python packages installed:
 - pandas
 - numpy
 - statsmodels
 - matplotlib
 - plotly
 - scipy
-- sklearn
-- tensorflow
+- ruptures
+- scikit-learn
+- pyod
+- datetime
+- torch
 - darts
 
 If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](https://www.anaconda.com/distribution/) distribution of Python, which already has the above packages and more included.
