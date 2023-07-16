@@ -1,0 +1,12 @@
+pandas
+numpy
+statsmodels
+matplotlib
+plotly
+scipy
+ruptures
+scikit-learn
+pyod
+datetime
+torch
+darts
