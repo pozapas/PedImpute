@@ -8,7 +8,7 @@ Our findings suggest the superiority of the DBSCAN method for anomaly detection 
 ![Methodology](https://github.com/pozapas/PedImpute/blob/master/Images/Methodology.svg)
 
 ## Installation
-This project and PedAnomaly.ipynb notebook requires Python and the following Python packages installed:
+This project and PedAnomaly.ipynb notebook require Python and the following Python packages installed:
 - pandas
 - numpy
 - statsmodels
