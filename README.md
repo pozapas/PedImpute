@@ -21,8 +21,7 @@ This project and PedAnomaly.ipynb notebook require Python and the following Pyth
 - datetime
 - torch
 - darts
-
-If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](https://www.anaconda.com/distribution/) distribution of Python, which already has the above packages and more included.
+  
 To install the Python packages, navigate to the local directory where you have cloned this repository and run the following command:
 ```bash
 pip install -r requirements.txt
